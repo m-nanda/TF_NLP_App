@@ -42,7 +42,7 @@ Modeling using statistics from the EDA stage shows the model can be built proper
 
 
 # Deployment
-Deployment is done into a web app, with several features such as:
+Deployment is done into a [web app](https://tf-nlp-app.herokuapp.com/), with several features such as:
 1. Can make predictions from news articles from languages other than English, such as Indonesian.
 2. designed to be more interactive by displaying prediction results in the form of images and graphs.
 3. There is a feature to view the initial processing of the text.
