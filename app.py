@@ -24,7 +24,7 @@ tokenizer = pickle.load(open('tokenizer.pkl', 'rb'))
 word_index = tokenizer.word_index
 
 #model = load_model('news_cat_model.h5')#, compile=False)
-@st.cache(allow_output_mutation=True)
+# @st.cache(allow_output_mutation=True)
 def load_models():
   my_model = load_model('news_cat_model.h5')
   return my_model
